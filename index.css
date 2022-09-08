@@ -4,8 +4,10 @@
 }
 body {
   font-family: var(--font-family);
+  margin-left: 0;
+  margin-right: 0;
 }
-.vertical {
+.vertic {
   height: 37px;
   border-left: 5px solid var(--primary-color);
   position: absolute;
@@ -86,13 +88,23 @@ small {
     padding-top: 0;
   }
   .second-col {
-    padding-left: 0px;
+    padding-left: 0;
+    margin-left: 0;
   }
   footer {
     text-align: center;
     margin-left: 0;
     padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
   }
+  .hero-contents {
+  color: white;
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  z-index: 1;
+}
   .short-hr {
     display: block;
     margin: 0 auto;
@@ -100,4 +112,14 @@ small {
   .second-col {
     padding-left: 0;
   }
+  .lorem {
+    text-align: center;
+  }
+  .lab-image {
+    display: block;
+    margin: 0 auto;
+  }
+  .button-div {
+  margin-left: 80px;
+}
 }
