@@ -1,5 +1,9 @@
 :root {
-  --primary-color: #e22787;
+  --primary-color: rgb(226, 39, 135);
+  --font-family: "Playfair Display", serif;
+}
+body {
+  font-family: var(--font-family);
 }
 .vertical {
   height: 37px;
@@ -29,33 +33,32 @@
 .navbar-brand {
   color: var(--primary-color);
 }
-.aktive {
-  text-decoration: underline;
+.active-link {
+  background-color: rgba(226, 39, 135, 0.5);
+  border-radius: 4px;
+}
+small {
+  text-align: center;
 }
 .button {
   padding: 10px 15px;
   border: 2px solid var(--primary-color);
   background-color: var(--primary-color);
   color: white;
+  border-radius: 4px;
 }
 .button-div {
   margin-left: 120px;
 }
 .lab-image {
   border-radius: 15px;
-  width: 200px;
+  width: 250px;
   height: 300px;
   padding-left: 0;
   margin-left: 0;
 }
-.lab-image-row {
-  width: 200px;
-  border-radius: 5px;
-  padding-right: 0;
-  margin-right: 0;
-}
-.lab-images {
-  margin: 0;
+.lorem {
+  padding-top: 70px;
 }
 .short-hr {
   width: 70px;
@@ -68,15 +71,33 @@
   padding-top: 20px;
   padding-bottom: 5px;
 }
-small {
-  display: block;
-}
+
 .second-col {
   padding-left: 50px;
 }
-.third-col{
+.third-col {
   padding-top: 140px;
 }
 .bg-white {
   background-color: white;
+}
+@media (max-width: 900px) {
+  .third-col {
+    padding-top: 0;
+  }
+  .second-col {
+    padding-left: 0px;
+  }
+  footer {
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .short-hr {
+    display: block;
+    margin: 0 auto;
+  }
+  .second-col {
+    padding-left: 0;
+  }
 }

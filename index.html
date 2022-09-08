@@ -18,13 +18,19 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav className="navbar navbar-expand-lg  fixed-top">
-      <div className="container-fluid">
-        <a className="navbar-brand fw-bold" href="#"> STREAMLINE </a>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#"> Food Lab </a>
         <button
-          className="navbar-toggler"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -32,23 +38,26 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-link aktive fw-bold" href="#"> Home </a>
-            <a className="nav-link fw-bold" href="#"> Services </a>
-            <a className="nav-link fw-bold" href="#"> Gallery </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active-link fw-bold" href="#"> Home </a>
+            <a class="nav-link fw-bold" href="#"> Services </a>
+            <a class="nav-link fw-bold" href="#"> Gallery </a>
+            <a class="nav-link fw-bold" href="#"> Co- traveller </a>
+            <a class="nav-link fw-bold" href="#"> FAQs </a>
+            <a class="nav-link fw-bold" href="#"> Contact Us</a>
           </div>
         </div>
       </div>
     </nav>
     <div id="hero-section">
-      <div className="hero-contents">
-        <h1 className="header">Empowering Society Through Science</h1>
+      <div class="hero-contents">
+        <h1 class="header">Empowering Society Through Science</h1>
         <p>Food Lab is one point solution for all food safety needs.</p>
-        <div className="button-div">
-          <button className="button">Get Started</button>
+        <div class="button-div">
+          <button class="button">Get Started</button>
         </div>
       </div>
       <div
@@ -158,74 +167,53 @@
       </div>
     </div>
 
-    <div className="container vertical mx-auto d-block">
-      <h4 className="vertical-header mb-5">Food Lab Food Safety Services</h4>
-      <div className="row pb-5">
-        <div className="col first-col">
-          <div className="row lab-images">
-            <div className="col">
+    <div class="container vertical mx-auto d-block">
+      <h4 class="vertical-header mb-5">Food Lab Food Safety Services</h4>
+      <div class="row pb-5">
+        <div class="col first-col">
+          <div class="row lab-images">
+            <div class="col-md">
               <img
                 alt=""
-                className="img-fluid lab-image-row mx-auto d-block mb-2"
-                src="https://wallpaperaccess.com/full/909067.jpg"
-              />
-              <img
-                alt=""
-                className="img-fluid lab-image-row mx-auto d-block"
-                src="https://wallpaperaccess.com/full/5748767.jpg"
-              />
-            </div>
-            <div className="col">
-              <img
-                alt=""
-                className="img-fluid lab-image "
+                class="img-fluid lab-image mx-auto d-block"
                 src="https://media.istockphoto.com/photos/woman-scientist-in-lab-look-at-science-microscope-medical-test-and-picture-id1330728771?b=1&k=20&m=1330728771&s=170667a&w=0&h=dPZrgQ7ky7d_g1ZgUCOV5jIG927hfggAOan3_CNOgNE="
               />
             </div>
           </div>
         </div>
-        <div className="col">
+        <div class="col-md lorem">
           <p>
-            {" "} Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab,
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab,
             veritatis, reiciendis ipsum illo dolorem modi quasi cumque eaque
             suscipit quidem nobis incidunt voluptatum aliquid explicabo soluta
             quam voluptas accusamus debitis?
           </p>
         </div>
       </div>
-      <footer className="">
-        <div className="row">
-          <div className="col bg-white">
+      <footer class="">
+        <div class="row">
+          <div class="col-sm bg-white">
             <h3>Food Lab</h3>
             <p>203, Abc road, xyz</p>
-            <p>
-              {" "}
-              <strong>Phone:</strong> +91 44 4269 2288
-            </p>
-            <p>
-              {" "}
-              <strong>Email:</strong> admin@yahoo.net
-            </p>
+            <p><strong>Phone:</strong> +91 44 4269 2288</p>
+            <p><strong>Email:</strong> admin@yahoo.net</p>
           </div>
-          <div className="col bg-color second-col">
-            <div className="short-hr"></div>
-            <h4 className="pt-3">Useful Link</h4>
+          <div class="col-sm bg-color second-col">
+            <div class="short-hr"></div>
+            <h4 class="pt-3">Useful Link</h4>
             <p>Home</p>
             <p>Services</p>
             <p>Training Registration</p>
             <p>Home</p>
             <p>Services</p>
-            <small>
-              {" "} Food Labs Inc.&copy;Copyright 2022. All rights Reserved
-            </small>
           </div>
-          <div className="col third-col  bg-color">
+          <div class="col-sm third-col bg-color">
             <p>Support</p>
             <p>Contact Us</p>
           </div>
-          <div className="col  bg-color">
-            <div className="short-hr "></div>
-            <h4 className="pt-3">Site Map</h4>
+          <div class="col-sm bg-color">
+            <div class="short-hr"></div>
+            <h4 class="pt-3">Site Map</h4>
             <p>Home</p>
             <p>Services</p>
             <p>Training Registration</p>
@@ -235,6 +223,9 @@
           </div>
         </div>
       </footer>
+      <small class="text-center p-2">
+        Food Labs Inc.&copy;Copyright 2022. All rights Reserved
+      </small>
     </div>
   </body>
 </html>
