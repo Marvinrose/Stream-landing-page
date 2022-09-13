@@ -6,9 +6,8 @@
 .logo {
   width: 150px;
 }
-.carousel-indicators {
-  width: 10px !important;
-  
+a{
+  font-size: 13px;
 }
 body {
   font-family: var(--font-family);
