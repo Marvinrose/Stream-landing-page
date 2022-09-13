@@ -6,7 +6,7 @@
 .logo {
   width: 150px;
 }
-a{
+a {
   font-size: 13px;
 }
 body {
@@ -54,7 +54,7 @@ body {
   text-decoration: underline;
 }
 p {
-  font-size: 13px;
+  font-size: 14px;
 }
 .button {
   padding: 10px 15px;
@@ -98,7 +98,12 @@ span .third-img {
   left: 45px;
   top: 680px;
 }
-
+#carouselExampleDark .indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 10px;
+}
 .short-hr {
   width: 70px;
   height: 2px;
@@ -114,6 +119,9 @@ span .third-img {
 }
 .third-col {
   padding-top: 70px;
+}
+footer {
+  margin-top: 20px;
 }
 
 @media (max-width: 1000px) {
